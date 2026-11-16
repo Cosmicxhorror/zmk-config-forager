@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LGUI}
+  - {t: A, h: LCTRL}
   - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
+  - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
   - H
   - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
+  - {t: K, h: RGUI}
   - {t: L, h: RALT}
-  - {t: ;, h: RGUI}
+  - {t: ;, h: RCTRL}
   - Z
   - X
   - C
@@ -46,10 +46,10 @@ layers:
   - Gui+C
   - Gui+X
   - Gui+Z
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - LEFT
   - DOWN
@@ -122,10 +122,10 @@ layers:
   - ^
   - +
   - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
+  - ''
+  - ''
+  - ''
+  - ''
   - '~'
   - '!'
   - '@'
@@ -151,10 +151,10 @@ layers:
   - VOL UP
   - PP
   - ''
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - OUT TOG
   - {t: BT, h: '0'}
@@ -206,10 +206,10 @@ combos:
 - p: [21, 23]
   k: Gui+X
   l: [BASE]
-- p: [16, 26]
+- p: [25, 26]
   k: '-'
   l: [BASE]
-- p: [15, 25]
+- p: [15, 16]
   k: _
   l: [BASE]
 - p: [13, 23]

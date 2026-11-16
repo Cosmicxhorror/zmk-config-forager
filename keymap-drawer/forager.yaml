@@ -31,10 +31,10 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - /
-  - {t: SPACE, h: NAV}
   - TAB
-  - {t: RET, h: SYM}
+  - {t: SPACE, h: NAV}
   - {t: BSPC, h: NUM}
+  - {t: RET, h: SYM}
   NAV:
   - ''
   - ''
@@ -66,8 +66,8 @@ layers:
   - PG DN
   - PG UP
   - END
-  - {type: held}
   - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - BSPC
   NUM:
@@ -77,34 +77,34 @@ layers:
   - '9'
   - ']'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F7
+  - F8
+  - F9
+  - F10
   - ;
   - '4'
   - '5'
   - '6'
   - '='
   - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
+  - F4
+  - F5
+  - F6
+  - F11
   - '`'
   - '1'
   - '2'
   - '3'
   - \
   - ''
-  - ''
-  - ','
-  - .
-  - ''
-  - SPACE
+  - F1
+  - F2
+  - F3
+  - F12
+  - {t: ▽, type: trans}
   - '0'
-  - RET
   - {t: BSPC, type: held}
+  - RET
   SYM:
   - '{'
   - '&'
@@ -138,8 +138,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - )
-  - {type: held}
   - ''
+  - {type: held}
   ADJ:
   - '&studio_unlock'
   - ''
@@ -171,10 +171,10 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
   - {type: held}
   - ''
+  - {type: held}
 combos:
 - p: [0, 1]
   k: ESC

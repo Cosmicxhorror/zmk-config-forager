@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RSHFT}
   - {t: K, h: RGUI}
   - {t: L, h: RALT}
-  - {t: ;, h: RCTRL}
+  - {t: '''', h: RCTRL}
   - Z
   - X
   - C
@@ -28,8 +28,8 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
+  - ','
+  - .
   - /
   - TAB
   - {t: SPACE, h: NAV}
